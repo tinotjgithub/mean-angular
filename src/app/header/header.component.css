@@ -1,0 +1,14 @@
+span {
+    color: darkgrey;
+}
+
+mat-toolbar {
+    margin-bottom: 1rem ;
+    background: black    
+
+}
+
+header {
+    color: black;
+   
+}
