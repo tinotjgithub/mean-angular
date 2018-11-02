@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Post } from './posts/post-modal';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   storedPosts = [];
 
-  onPostCreated(post) {
+  onPostCreated(post: Post) {
     this.storedPosts.push(post);
   }
 }

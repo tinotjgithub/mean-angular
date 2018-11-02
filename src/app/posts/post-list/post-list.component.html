@@ -1,5 +1,5 @@
-<mat-accordion *ngIf = "Posts.length > 0">
-    <mat-expansion-panel *ngFor  = "let post of Posts">
+<mat-accordion *ngIf="Posts.length > 0">
+    <mat-expansion-panel *ngFor="let post of Posts">
         <mat-expansion-panel-header>
             <mat-panel-title>
                 {{post.title}}
@@ -8,4 +8,4 @@
         <p> {{post.content}} </p>
     </mat-expansion-panel>
 </mat-accordion>
-<p *ngIf = "Posts.length <= 0"> No posts yet!</p>
+<p *ngIf="Posts.length <= 0"> No posts yet!</p>
